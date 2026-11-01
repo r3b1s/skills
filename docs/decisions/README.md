@@ -27,3 +27,4 @@ Architecture Decision Records for this repository, in Michael Nygard's format (s
 | [0020](0020-harness-categories-and-pi-skills.md) | Group harness-specific skills in `harness-<name>` categories, starting with pi | accepted, amended by 0022 |
 | [0021](0021-add-design-category-and-material-design-3-skill.md) | Add a `design` skill category, starting with Material Design 3 | accepted |
 | [0022](0022-rename-to-skills-and-add-repo-best-practices.md) | Rename the repository to `skills` and add a `repo-best-practices` category | accepted |
+| [0023](0023-one-skill-per-standard.md) | Keep one skill per standard | accepted |
