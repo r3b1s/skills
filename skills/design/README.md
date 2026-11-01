@@ -21,8 +21,8 @@ documentation or an installed package disagrees with a skill, upstream wins.
 With the [`skills` CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add r3b1s/secure-methodologies/skills/design        # all design skills
-npx skills add r3b1s/secure-methodologies --skill material-design-3
+npx skills add r3b1s/skills/skills/design        # all design skills
+npx skills add r3b1s/skills --skill material-design-3
 ```
 
 Add `-g` to install for your user rather than the current project. Skills install by

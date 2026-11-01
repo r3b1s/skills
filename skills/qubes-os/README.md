@@ -25,8 +25,8 @@ a skill, they win.
 With the [`skills` CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add r3b1s/secure-methodologies/skills/qubes-os          # all Qubes OS skills
-npx skills add r3b1s/secure-methodologies --skill qubes-dom0-cli    # one skill
+npx skills add r3b1s/skills/skills/qubes-os          # all Qubes OS skills
+npx skills add r3b1s/skills --skill qubes-dom0-cli    # one skill
 ```
 
 Add `-g` to install for your user rather than the current project. Skills install by

@@ -22,8 +22,8 @@ not by running pi. Where a clone of pi disagrees with a skill, the clone wins.
 With the [`skills` CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add r3b1s/secure-methodologies/skills/harness-pi    # all three
-npx skills add r3b1s/secure-methodologies --skill pi-core       # one skill
+npx skills add r3b1s/skills/skills/harness-pi    # all three
+npx skills add r3b1s/skills --skill pi-core       # one skill
 ```
 
 Add `-g` to install for your user rather than the current project. Skills install by
