@@ -9,7 +9,15 @@ self-contained skill.
 | Skill | Use it when |
 |---|---|
 | [repo-security](repo-security/SKILL.md) | Making a software repository safe to publish and easy to trust, using the OpenSSF OSPS Baseline as the requirements: auditing it before it goes public, starting a new project, maintaining or releasing one, re-auditing it, and choosing which Baseline maturity level it should meet. |
+| [semver](semver/SKILL.md) | Versioning software with [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html): declaring a public API, deciding whether a change is breaking, choosing the next version, tagging a release, deprecating, pre-releases, and repairing a bad release. |
+| [calver](calver/SKILL.md) | Versioning software with [Calendar Versioning](https://calver.org/) (spec 26.0): deciding whether it fits, designing a scheme, zero-padding, computing the next version, moving from another scheme, and time-based deprecation. |
+| [conventional-commits](conventional-commits/SKILL.md) | Writing and checking commit messages with [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), marking breaking changes, and reading commits to work out a version or draft a changelog. |
+| [keep-a-changelog](keep-a-changelog/SKILL.md) | Keeping a `CHANGELOG.md` with [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/): writing entries, maintaining `Unreleased`, releasing a version, marking yanked releases, and correcting a changelog. |
 
+Each published standard has its own skill, pinned to one version of that standard; see
+[decision 0023](../../docs/decisions/0023-one-skill-per-standard.md). These four were checked
+against their standards on 2026-11-01, and their ecosystem notes against the npm, Cargo,
+Python packaging and Go documentation. Where upstream disagrees with a skill, upstream wins.
 
 ## Installing
 
@@ -17,7 +25,7 @@ With the [`skills` CLI](https://github.com/vercel-labs/skills):
 
 ```sh
 npx skills add r3b1s/skills/skills/repo-best-practices    # all repository skills
-npx skills add r3b1s/skills --skill repo-security         # one skill
+npx skills add r3b1s/skills --skill semver                # one skill
 ```
 
 Add `-g` to install for your user rather than the current project. Skills install by

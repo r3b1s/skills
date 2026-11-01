@@ -11,7 +11,7 @@ against.
 
 | Category | Skills | Covers |
 |---|---|---|
-| [repo-best-practices](skills/repo-best-practices/) | `repo-security` | How a software repository is set up, kept and published, starting with making it safe to publish and easy to trust. |
+| [repo-best-practices](skills/repo-best-practices/) | `repo-security`, `semver`, `calver`, `conventional-commits`, `keep-a-changelog` | How a software repository is set up, kept and published: making it safe to publish and easy to trust, versioning it, and recording what changed. |
 | [qubes-os](skills/qubes-os/) | `qubes-dom0-cli`, `qubes-vm-cli`, `qubes-disposable-vms`, `qubes-admin-python` | The dom0 and in-qube command-line tools, building disposable qubes, and the `qubesadmin` Python library. |
 | [harness-pi](skills/harness-pi/) | `pi-monorepo-info`, `pi-core`, `pi-durable` | The pi coding-agent harness: its monorepo, the regular harness internals, and the experimental `pi-durable` runtime. |
 | [design](skills/design/) | `material-design-3` | UI/UX design systems, starting with Material Design 3 and M3 Expressive. |
@@ -46,9 +46,17 @@ maintenance, releases and periodic re-audits. Its requirements come from the
 it alone as well as for an agent. Its full scope and foundation are in
 [the category README](skills/repo-best-practices/README.md).
 
+The category also has one skill per published standard, each pinned to one version of it:
+`semver` for [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html), `calver` for
+[Calendar Versioning](https://calver.org/), `conventional-commits` for
+[Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), and
+`keep-a-changelog` for [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/). Each
+works alone, and guidance that goes beyond its standard is marked as such. See
+[decision 0023](docs/decisions/0023-one-skill-per-standard.md).
+
 ```sh
 npx skills add r3b1s/skills/skills/repo-best-practices    # all of them
-npx skills add r3b1s/skills --skill repo-security         # just one
+npx skills add r3b1s/skills --skill semver                # just one
 ```
 
 ## Qubes OS skills
