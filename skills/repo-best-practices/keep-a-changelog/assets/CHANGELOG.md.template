@@ -1,0 +1,20 @@
+<!--
+Template for a project's CHANGELOG.md. Replace <REPOSITORY-URL> and delete this comment.
+
+Header text from Keep a Changelog 1.1.0 (MIT): https://keepachangelog.com/en/1.1.0/
+The URL below is GitHub's form; use your forge's equivalent. After the first release,
+point [Unreleased] at a comparison from that release's tag to HEAD. If the project uses
+another version scheme, name it in the last header line instead of Semantic Versioning.
+
+Place the file in the repository root.
+-->
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+[Unreleased]: <REPOSITORY-URL>/commits/HEAD
