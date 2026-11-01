@@ -3,6 +3,7 @@
 - **Status:** accepted
 - **Date:** 2026-10-22
 - **Amends:** [0017](0017-add-qubes-os-skills.md), [0018](0018-skill-categories.md)
+- **Amended by:** [0022](0022-rename-to-skills-and-add-repo-best-practices.md) (where the scope is stated)
 
 ## Context
 
