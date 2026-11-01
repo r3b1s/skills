@@ -22,7 +22,7 @@ to be grouped by level, with no separate lists to keep in step.
   file still names its category.
 
 The layout, and how to rebuild it for a new Baseline version, is documented in
-[docs/maintenance/updating-the-baseline.md](../maintenance/updating-the-baseline.md#how-the-skill-stores-the-baseline).
+[docs/baseline-maintenance/updating-the-baseline.md](../baseline-maintenance/updating-the-baseline.md#how-the-skill-stores-the-baseline).
 
 ## Consequences
 

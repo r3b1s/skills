@@ -21,7 +21,7 @@ of the skill does.
   not reference this repository's decision records, research, maintainer docs or README,
   by link or by number.
 - Skills contain no guidance on updating the skill itself. Maintainer guidance lives in
-  `docs/` (for now, [docs/maintenance/](../maintenance/)).
+  `docs/` (for now, [docs/baseline-maintenance/](../baseline-maintenance/)).
 - The skill targets the Baseline version it is built around by default, unless the user
   names another. Moving a *project* from an older Baseline version to a newer one is skill
   content, and does not suggest that the skill itself needs changing.

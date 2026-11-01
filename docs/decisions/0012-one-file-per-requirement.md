@@ -25,7 +25,7 @@ requirements from different levels and categories (for example "level 1 plus" in
   levels.
 
 The layout, and how to rebuild it for a new Baseline version, is documented in
-[docs/maintenance/updating-the-baseline.md](../maintenance/updating-the-baseline.md#how-the-skill-stores-the-baseline).
+[docs/baseline-maintenance/updating-the-baseline.md](../baseline-maintenance/updating-the-baseline.md#how-the-skill-stores-the-baseline).
 
 ## Consequences
 
