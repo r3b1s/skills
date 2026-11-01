@@ -2,7 +2,7 @@
 
 - **Date:** 2026-10-18
 - **Purpose:** find ways a project can demonstrate, with tools it runs itself, that it
-  meets the OSPS Baseline, serving the top goal in the [scope](../../README.md#scope):
+  meets the OSPS Baseline, serving the top goal in the [scope](../../skills/repo-best-practices/README.md#scope):
   signals that let strangers trust a project.
 - **Outcome:** [ADR 0011](../decisions/0011-conformance-signals-offered.md).
 

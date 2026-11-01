@@ -14,7 +14,7 @@ so that does not happen again.
 ## Decision
 
 The `secure-repo` skill opens with seven ground rules (see "Ground rules for agents" in
-[SKILL.md](../../skills/secure-repo/SKILL.md)):
+[SKILL.md](../../skills/repo-best-practices/repo-security/SKILL.md)):
 
 1. The human decides; the agent proposes options and stops. Reserved decisions: tools,
    dependencies, pinned versions and pipeline structure; the target maturity level;

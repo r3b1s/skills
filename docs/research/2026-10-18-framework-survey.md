@@ -2,7 +2,7 @@
 
 - **Date:** 2026-10-18
 - **Purpose:** choose an external framework to build the methodology on
-  ([scope](../../README.md#scope)).
+  ([scope](../../skills/repo-best-practices/README.md#scope)).
 - **Outcome:** [ADR 0003](../decisions/0003-osps-baseline-as-backbone.md), OSPS Baseline as
   backbone.
 

@@ -16,7 +16,7 @@ next; scope (what counts as a vulnerability) is the common extension.
 - Define SECURITY.md in a repository [glossary](../glossary.md#securitymd) as the
   project's vulnerability disclosure policy.
 - For the first iteration, ship one simple template in the skill
-  (`skills/secure-repo/assets/SECURITY.md.template`), following the structure of the GitHub
+  (`skills/repo-best-practices/repo-security/assets/SECURITY.md.template`), following the structure of the GitHub
   security policy template in the OpenSSF Vulnerability Disclosure Guide (the OpenSSF
   also stewards the OSPS Baseline), credited in the template. It covers the private
   channel, what to include, response time, handling of confirmed reports, disclosure

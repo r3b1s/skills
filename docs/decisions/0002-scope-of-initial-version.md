@@ -3,7 +3,8 @@
 - **Status:** accepted
 - **Date:** 2026-10-18
 - **Amended by:** [0004](0004-include-baseline-legal-controls.md) (legal controls),
-  [0017](0017-add-qubes-os-skills.md) (Qubes OS skills)
+  [0017](0017-add-qubes-os-skills.md) (Qubes OS skills),
+  [0022](0022-rename-to-skills-and-add-repo-best-practices.md) (repository purpose, where the scope is stated)
 
 ## Context
 
@@ -13,7 +14,7 @@ scope could be set first, deliberately.
 
 ## Decision
 
-The scope is the one stated in the [README](../../README.md#scope). In summary:
+The scope is the one stated in the [README](../../skills/repo-best-practices/README.md#scope). In summary:
 
 - The primary product is context that people and agents follow; other artifacts derive
   from it.

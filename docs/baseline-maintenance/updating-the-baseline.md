@@ -1,6 +1,6 @@
 # Updating the skill to a new Baseline version
 
-Maintainer guidance for this repository: how to move the `secure-repo` skill itself to a
+Maintainer guidance for this repository: how to move the `repo-security` skill itself to a
 newer OSPS Baseline version. It is not part of any skill. (Moving a *project* to a newer
 version is covered inside the skill, in `references/baseline-upgrade.md`.)
 
@@ -28,7 +28,7 @@ version until a maintainer deliberately decides to adopt the new one.
 
 1. **Notice it.** Check the release notes, the website or the mailing list for a version
    newer than the one the skill targets (`baseline-version` in
-   [SKILL.md](../../skills/secure-repo/SKILL.md)).
+   [SKILL.md](../../skills/repo-best-practices/repo-security/SKILL.md)).
 2. **Read the release notes.** List the new, modified and removed controls, and the
    changes to framework mappings.
 3. **Compare the controls themselves.** Compare the `baseline/OSPS-*.yaml` files of the two
@@ -57,7 +57,7 @@ version until a maintainer deliberately decides to adopt the new one.
      `platforms/github.md` (its mapping table).
    - **Counts and version.** The counts per level and per category in `baseline.md` and
      `levels.md`, the `baseline-version` field and the description in `SKILL.md`, and the
-     [README](../../README.md).
+     [category README](../../skills/repo-best-practices/README.md).
 8. **Check the result.** Every link and anchor resolves; every requirement in the new
    version has exactly one file, in the folder for the level where it first applies, and
    its level line agrees; and no file inside a skill links outside that skill (see
@@ -66,7 +66,7 @@ version until a maintainer deliberately decides to adopt the new one.
 ## How the skill stores the Baseline
 
 Decided in [ADR 0013](../decisions/0013-requirements-by-level-folder.md). Inside
-`skills/secure-repo/references/osps/`:
+`skills/repo-best-practices/repo-security/references/osps/`:
 
 ```
 osps/

@@ -6,7 +6,7 @@
 
 Facts come from the sources linked, read on the date above. GitHub's settings and plans
 change often; re-check before relying on a detail. The skill's
-[GitHub guide](../../skills/secure-repo/references/platforms/github.md) holds the same
+[GitHub guide](../../skills/repo-best-practices/repo-security/references/platforms/github.md) holds the same
 facts in usable form.
 
 ## gh-secure

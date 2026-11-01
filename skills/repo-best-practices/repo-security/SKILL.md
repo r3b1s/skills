@@ -1,5 +1,5 @@
 ---
-name: secure-repo
+name: repo-security
 description: Make a software repository safe to publish and easy to trust, using the OpenSSF OSPS Baseline (v2026.08.28) as the requirements. Use when auditing a repository before making it public, starting a new project, maintaining or releasing one, or re-auditing it, and when choosing which Baseline maturity level a project should meet.
 license: MIT
 metadata:
